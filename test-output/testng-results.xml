@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ test started   ]]>
+    </line>
+    <line>
+      <![CDATA[ testcase  is success   chambersLogin]]>
+    </line>
+    <line>
+      <![CDATA[ test started   ]]>
+    </line>
+    <line>
+      <![CDATA[ testcase  is success   chambersLogin]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-09-27T11:00:50 IST" name="TajSite_Suite" finished-at="2026-09-27T11:01:20 IST" duration-ms="30396">
+    <groups>
+      <group name="smoke">
+        <method signature="ChambersLoginT2.chambersLogin()[pri:0, instance:com.sreekanth.selenium_TajSite.ChambersLoginT2@7722c3c3]" name="chambersLogin" class="com.sreekanth.selenium_TajSite.ChambersLoginT2"/>
+        <method signature="ChambersLoginT2.chambersLogin()[pri:0, instance:com.sreekanth.selenium_TajSite.ChambersLoginT2@564fabc8]" name="chambersLogin" class="com.sreekanth.selenium_TajSite.ChambersLoginT2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-09-27T11:00:50 IST" name="Chrome-Suite" finished-at="2026-09-27T11:01:06 IST" duration-ms="16787">
+      <class name="com.sreekanth.selenium_TajSite.ChambersLoginT2">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sreekanth.selenium_TajSite.ChambersLoginT2@7722c3c3]" started-at="2026-09-27T11:00:50 IST" name="setup" finished-at="2026-09-27T11:00:57 IST" duration-ms="7231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="chambersLogin()[pri:0, instance:com.sreekanth.selenium_TajSite.ChambersLoginT2@7722c3c3]" started-at="2026-09-27T11:00:57 IST" name="chambersLogin" finished-at="2026-09-27T11:01:05 IST" duration-ms="7772" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ test started   ]]>
+            </line>
+            <line>
+              <![CDATA[ testcase  is success   chambersLogin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chambersLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sreekanth.selenium_TajSite.ChambersLoginT2@7722c3c3]" started-at="2026-09-27T11:01:05 IST" name="tearDown" finished-at="2026-09-27T11:01:06 IST" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sreekanth.selenium_TajSite.ChambersLoginT2 -->
+    </test> <!-- Chrome-Suite -->
+    <test started-at="2026-09-27T11:01:06 IST" name="edge-Suite" finished-at="2026-09-27T11:01:20 IST" duration-ms="13553">
+      <class name="com.sreekanth.selenium_TajSite.ChambersLoginT2">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sreekanth.selenium_TajSite.ChambersLoginT2@564fabc8]" started-at="2026-09-27T11:01:06 IST" name="setup" finished-at="2026-09-27T11:01:12 IST" duration-ms="5545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="chambersLogin()[pri:0, instance:com.sreekanth.selenium_TajSite.ChambersLoginT2@564fabc8]" started-at="2026-09-27T11:01:12 IST" name="chambersLogin" finished-at="2026-09-27T11:01:18 IST" duration-ms="6273" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ test started   ]]>
+            </line>
+            <line>
+              <![CDATA[ testcase  is success   chambersLogin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chambersLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sreekanth.selenium_TajSite.ChambersLoginT2@564fabc8]" started-at="2026-09-27T11:01:18 IST" name="tearDown" finished-at="2026-09-27T11:01:20 IST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sreekanth.selenium_TajSite.ChambersLoginT2 -->
+    </test> <!-- edge-Suite -->
+  </suite> <!-- TajSite_Suite -->
+</testng-results>
